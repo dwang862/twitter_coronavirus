@@ -13,6 +13,13 @@ You will continue to have assignments during the next few weeks,
 and so if you delay working on this homework,
 you will have some very heavy work loads ahead of you.
 
+**Learning Objectives:**
+
+1. work with large scale datasets
+1. work with multilingual text
+1. use the MapReduce divide-and-conquer paradigm to create parallel code
+
+
 ## Explanation and Results - Daniel Wang
 
 **Approach**
@@ -30,12 +37,6 @@ Observing the tweets in Japanese, Korean, and Chinese still yield interesting ob
 Hashtags in Japan were used for more than the covid hashtags in China and Korea.
 For the hashtag in Chinese, the country most tweeted wasn't in China, but in Yemen.
 This actually makes sense because Twitter is banned in China.
-
-**Learning Objectives:**
-
-1. work with large scale datasets
-1. work with multilingual text
-1. use the MapReduce divide-and-conquer paradigm to create parallel code
 
 ## Background
 
