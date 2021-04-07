@@ -13,6 +13,24 @@ You will continue to have assignments during the next few weeks,
 and so if you delay working on this homework,
 you will have some very heavy work loads ahead of you.
 
+## Explanation and Results - Daniel Wang
+
+**Approach**
+
+In this assignment, we use the MapReduce procedure to analyze tweets about the Covid-19 pandemic.
+Given a partitioned dataset, we modify a mapping program to track hashtags on language and country levels.
+Then, we combine the results into a single file for each language and country datasets using the reduce program.
+Finally, we use the visualize file to count how many hashtags were used for Covid-19 related words.
+
+**Observations**
+The hashtags that include words similar to, or related to, covid and coronavirus were used the most in different countries.
+Compared to the hashtags with words like flu, virus, and the symptoms of covid, the words that referenced covid or corona were used far more on Twitter.
+With most Twitter users in the US, it also makes sense that, for most tweets, languages are in English as well.
+Observing the tweets in Japanese, Korean, and Chinese still yield interesting observations.
+Hashtags in Japan were used for more than the covid hashtags in China and Korea.
+For the hashtag in Chinese, the country most tweeted wasn't in China, but in Yemen.
+This actually makes sense because Twitter is banned in China.
+
 **Learning Objectives:**
 
 1. work with large scale datasets
@@ -170,6 +188,8 @@ Complete the following tasks:
     This explanation should be suitable for a future employer to look at while they are interviewing you to get a rough idea of what you accomplished.
     (And you should tell them about this in your interviews!)
 
+
+In this assignment, we use the MapReduce procedure to analyze tweets about the Covid-19 pandemic. Given a partitioned dataset, we modify a mapping program to track hashtags on language and country levels. Then, we combine the results into a single file for each language and country datasets using the reduce program. Finally, we use the visualize file to count how many hashtags were used for Covid-19 related words.
 ## Submission
 
 Upload a link to you github repository on sakai.
